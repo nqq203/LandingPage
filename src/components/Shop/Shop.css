@@ -1,0 +1,26 @@
+:root {
+  --blue-color-1--: #0D5EBA;
+  --black-color-1--: #343434;
+  --blue-color-2--: #002D69;
+  --white-color--: #FFFFFF;
+  --black-color-2--: #000000;
+  --grey-color--: #53585F;
+}
+
+.shop {
+  margin-top: 850px;
+}
+
+.products ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.products ul li h3{
+  width: 250px;
+  font-size: 18px;
+}

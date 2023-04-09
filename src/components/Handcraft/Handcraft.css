@@ -1,0 +1,73 @@
+:root {
+  --blue-color-1--: #0D5EBA;
+  --black-color-1--: #343434;
+  --blue-color-2--: #002D69;
+  --white-color--: #FFFFFF;
+  --black-color-2--: #000000;
+  --grey-color--: #53585F;
+}
+
+.handcraft {
+  background-color: var(--blue-color-2--);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 682px;
+  display: flex;
+}
+
+.handcraft-left h2 {
+  padding-top: 110px;
+  padding-left: 80px;
+  color: var(--white-color--);
+  font-weight: 700;
+  font-size: 54px;
+  height: 130px;
+  width: 817.5616455078125px;
+  left: 0px;
+  top: 19px;
+  border-radius: nullpx;
+}
+
+.handcraft-left p {
+  padding-left: 80px;
+  height: 102px;
+  width: 686px;
+  left: 0px;
+  top: 163px;
+  border-radius: nullpx;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 2.6052520141206514e-8px;
+  text-align: left;
+  color: var(--white-color--);
+}
+
+.handcraft-left button {
+  margin-left: 80px;
+  border-radius: 4px;
+  width: 170px;
+  height: 42px;
+  font-size: 16px;
+  background-color: var(--white-color--);
+  color:var(--blue-color-2--);
+  font-weight: 700;
+}
+
+.handcraft-right img {
+  height: 682px;
+  width: 100%;
+  left: 679px;
+  top: 1378px;
+  border-radius: 0px;
+}
+
+.handcraft-left {
+  width: 50%;
+}
+
+.handcraft-right {
+  width: 50%;
+}

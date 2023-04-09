@@ -1,0 +1,37 @@
+:root {
+  --blue-color-1--: #0D5EBA;
+  --black-color-1--: #343434;
+  --blue-color-2--: #002D69;
+  --white-color--: #FFFFFF;
+  --black-color-2--: #000000;
+  --grey-color--: #53585F;
+}
+
+.latest {
+  margin-top: 740px;
+}
+
+.latest .latest-item ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.latest button {
+  margin-left: 45%;
+  height: 42px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--blue-color-2--);
+  color:var(--white-color--);
+  font-size: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,88 @@
+:root {
+  --blue-color-1--: #0D5EBA;
+  --blue-color-3--: #B8E0EF;
+  --black-color-1--: #343434;
+  --blue-color-2--: #002D69;
+  --white-color--: #FFFFFF;
+  --black-color-2--: #000000;
+  --grey-color--: #53585F;
+}
+
+.footer {
+  background-color: var(--blue-color-3--);
+  position: absolute;
+  width: 100%;
+  left: 0px;
+}
+
+.subcribe {
+  margin-left: 20%;
+  display: flex;
+  margin-top: 59px;
+  background-color: var(--white-color--);
+  margin-right: 15%;
+}
+
+
+.subcribe .subcribe-left {
+  width: 50%;
+  height: 100%;
+}
+
+.subcribe .subcribe-right p {
+  height: 39px;
+  width: 362px;
+  left: 0px;
+  top: 73px;
+  margin-left: 59px;
+  text-align: center;
+  color: var(--black-color-1--);
+}
+
+.subcribe .subcribe-right h2 {
+  padding-top: 80px;
+  margin-bottom: 8px;
+  height: 50px;
+  width: 362px;
+  left: 0px;
+  top: 15px;
+  margin-left: 59px;
+  text-align: center;
+}
+
+.subcribe .subcribe-right button {
+  margin-top: 15px;
+  margin-left: 40%;
+}
+
+.information {
+  margin-top: 56px;
+  display: flex;
+  gap: 165px;
+  border-bottom: solid 1px;
+  border-color: var(--grey-color--);
+}
+
+.information .inf-item:first-child {
+  color: var(--grey-color--);
+  padding-left: 10%;
+}
+
+.information .inf-item h4 {
+  color: var(--black-color-1--);
+  height: 25px;
+  width: 75px;
+  left: 124px;
+  top: 4363px;  
+}
+
+.copyright {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 10%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: var(--grey-color--);
+}
